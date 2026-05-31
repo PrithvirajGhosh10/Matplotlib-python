@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+import numpy as np #using numpy as numpy arrays are faster than python lists
+# print(matplotlib.__version__)
+x=np.array([2023,2024,2025,2026])
+y=np.array([15,25,30,20])
+plt.plot(x,y)
+plt.show() #to get the graph
